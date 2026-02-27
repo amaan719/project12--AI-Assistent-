@@ -18,6 +18,9 @@ btn.addEventListener('click', ()=>{
         } else if(command.includes("open instagram")){
             speak("opening instagram...")
             window.open("https://www.instagram.com", "_blank")
+        } else if(command.includes("open watsapp")){
+            speak("opening watsapp...")
+            window.open("https://www.watsapp.com", "_blank")
         }
         else{
             speak("search on google...")
