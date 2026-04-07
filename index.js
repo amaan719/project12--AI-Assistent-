@@ -21,6 +21,9 @@ btn.addEventListener('click', ()=>{
         } else if(command.includes("open whatsapp")){
             speak("opening watsapp...")
             window.open("https://www.whatsapp.com", "_blank")
+        } else if(command.includes("open spotify")){
+            speak("opening spotify...")
+            window.open("https://open.spotify.com", "_blank")
         }
         else{
             speak("search on google...")
